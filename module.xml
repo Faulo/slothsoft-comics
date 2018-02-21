@@ -22,6 +22,18 @@ Llo
     <resource-directory name="xsl" path="template" type="application/xslt+xml"/>
     <resource-directory name="dictionary" path="dictionary" type="application/xml"/>
     <resource-directory name="pages" path="pages" type="application/xml"/>
+    <directory name="static">
+      <resource name="8bit-index" path="8bit\index.xml" type="application/xml"/>
+      <resource-directory name="8bit" path="8bit" type="*/*"/>
+      <resource name="menage-a-3-index" path="menage-a-3\index.xml" type="application/xml"/>
+      <resource-directory name="menage-a-3" path="menage-a-3" type="*/*"/>
+      <resource name="el-goonish-shive-index" path="el-goonish-shive\index.xml" type="application/xml"/>
+      <resource-directory name="el-goonish-shive" path="el-goonish-shive" type="*/*"/>
+      <resource name="oots-index" path="oots\index.xml" type="application/xml"/>
+      <resource-directory name="oots" path="oots" type="*/*"/>
+      <resource name="girl-genius-index" path="girl-genius\index.xml" type="application/xml"/>
+      <resource-directory name="girl-genius" path="girl-genius" type="*/*"/>
+    </directory>
     <fragment name="8bit">
       <use-template ref="xsl/_default"/>
       <use-document ref="static/8bit-index"/>
@@ -52,17 +64,5 @@ Llo
       <include-fragment ref="//slothsoft@core/HTML5"/>
       <param name="standalone" scope="global"/>
     </fragment>
-    <directory name="static">
-      <resource name="8bit-index" path="8bit\index.xml" type="application/xml"/>
-      <resource-directory name="8bit" path="8bit" type="*/*"/>
-      <resource name="menage-a-3-index" path="menage-a-3\index.xml" type="application/xml"/>
-      <resource-directory name="menage-a-3" path="menage-a-3" type="*/*"/>
-      <resource name="el-goonish-shive-index" path="el-goonish-shive\index.xml" type="application/xml"/>
-      <resource-directory name="el-goonish-shive" path="el-goonish-shive" type="*/*"/>
-      <resource name="oots-index" path="oots\index.xml" type="application/xml"/>
-      <resource-directory name="oots" path="oots" type="*/*"/>
-      <resource name="girl-genius-index" path="girl-genius\index.xml" type="application/xml"/>
-      <resource-directory name="girl-genius" path="girl-genius" type="*/*"/>
-    </directory>
   </assets>
 </module>
