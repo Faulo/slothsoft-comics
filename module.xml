@@ -37,31 +37,31 @@ Llo
     <fragment name="8bit">
       <use-template ref="xsl/_default"/>
       <use-document ref="static/8bit-index"/>
-      <include-fragment ref="//slothsoft@core/HTML5"/>
+      <import ref="//slothsoft@core/HTML5"/>
       <param name="standalone" scope="global"/>
     </fragment>
     <fragment name="menage-a-3">
       <use-template ref="xsl/_default"/>
       <use-document ref="static/menage-a-3-index"/>
-      <include-fragment ref="//slothsoft@core/HTML5"/>
+      <import ref="//slothsoft@core/HTML5"/>
       <param name="standalone" scope="global"/>
     </fragment>
     <fragment name="el-goonish-shive">
       <use-template ref="xsl/_default"/>
       <use-document ref="static/el-goonish-shive-index"/>
-      <include-fragment ref="//slothsoft@core/HTML5"/>
+      <import ref="//slothsoft@core/HTML5"/>
       <param name="standalone" scope="global"/>
     </fragment>
     <fragment name="oots">
       <use-template ref="xsl/_default"/>
       <use-document ref="static/oots-index"/>
-      <include-fragment ref="//slothsoft@core/HTML5"/>
+      <import ref="//slothsoft@core/HTML5"/>
       <param name="standalone" scope="global"/>
     </fragment>
     <fragment name="girl-genius">
       <use-template ref="xsl/_default"/>
       <use-document ref="static/girl-genius-index"/>
-      <include-fragment ref="//slothsoft@core/HTML5"/>
+      <import ref="//slothsoft@core/HTML5"/>
       <param name="standalone" scope="global"/>
     </fragment>
   </assets>

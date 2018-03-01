@@ -20,7 +20,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "Slothsoft\\Comics\\": "php/"
+            "Slothsoft\\Comics\\": "src/Slothsoft/Comics/"
         }
     }
 }
