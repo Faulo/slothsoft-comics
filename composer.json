@@ -1,22 +1,23 @@
 {
-	"name" : "slothsoft/comics",
-	"description" : "A Farah module that downloads various webcomics.",
-	"license" : "WTFPL",
-	"authors" : [{
-			"name" : "Daniel Schulz",
-			"email" : "info.slothsoft@gmail.com"
-		}
-	],
-	"type" : "library",
-	"require" : {
-		"php" : ">=7.0"
-	},
-	"require-dev" : {
-		"phpunit/phpunit" : ">=6.0"
-	},
-	"autoload" : {
-		"psr-4" : {
-			"Slothsoft\\Comics\\" : "src/"
-		}
-	}
+    "name": "slothsoft\/comics",
+    "description": "A Farah module that downloads various webcomics.",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Daniel Schulz",
+            "email": "info.slothsoft@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit\/phpunit": ">=6.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Slothsoft\\Comics\\": "src\/"
+        }
+    }
 }
