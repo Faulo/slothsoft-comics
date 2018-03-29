@@ -23,7 +23,7 @@
     },
     "autoload": {
         "files": [
-            "src\/registerModule.php"
+            "C:\\Webserver\\workspace\\slothsoft-comics\\src\\registerModule.php"
         ],
         "psr-0": {
             "Slothsoft\\Comics\\": "src\/"
