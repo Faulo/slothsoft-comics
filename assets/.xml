@@ -1,46 +1,35 @@
 <?xml version="1.0"?>
 <assets xmlns="http://schema.slothsoft.net/farah/module">
-    <resource-directory name="xsl" path="template" type="application/xslt+xml"/>
-    <directory name="static">
-      <resource name="8bit-index" path="8bit\index.xml" type="application/xml"/>
-      <resource-directory name="8bit" path="8bit" type="*/*"/>
-      <resource name="menage-a-3-index" path="menage-a-3\index.xml" type="application/xml"/>
-      <resource-directory name="menage-a-3" path="menage-a-3" type="*/*"/>
-      <resource name="el-goonish-shive-index" path="el-goonish-shive\index.xml" type="application/xml"/>
-      <resource-directory name="el-goonish-shive" path="el-goonish-shive" type="*/*"/>
-      <resource name="oots-index" path="oots\index.xml" type="application/xml"/>
-      <resource-directory name="oots" path="oots" type="*/*"/>
-      <resource name="girl-genius-index" path="girl-genius\index.xml" type="application/xml"/>
-      <resource-directory name="girl-genius" path="girl-genius" type="*/*"/>
+    <resource-directory name="xsl" type="application/xslt+xml"/>
+    
+    <directory name="8bit">
+      <use-template ref="xsl/_default"/>
+      <resource use="document" name="index" type="application/xml"/>
+      <resource-directory use="manifest" name="images" type="image/*"/>
+      <import ref="//slothsoft@core/HTML5"/>
     </directory>
-    <fragment name="8bit">
+    <directory name="menage-a-3">
       <use-template ref="xsl/_default"/>
-      <use-document ref="static/8bit-index"/>
+      <resource use="document" name="index" type="application/xml"/>
+      <resource-directory use="manifest" name="images" type="image/*"/>
       <import ref="//slothsoft@core/HTML5"/>
-      <param name="standalone" scope="global"/>
-    </fragment>
-    <fragment name="menage-a-3">
+    </directory>
+    <directory name="el-goonish-shive">
       <use-template ref="xsl/_default"/>
-      <use-document ref="static/menage-a-3-index"/>
+      <resource use="document" name="index" type="application/xml"/>
+      <resource-directory use="manifest" name="images" type="image/*"/>
       <import ref="//slothsoft@core/HTML5"/>
-      <param name="standalone" scope="global"/>
-    </fragment>
-    <fragment name="el-goonish-shive">
+    </directory>
+    <directory name="oots">
       <use-template ref="xsl/_default"/>
-      <use-document ref="static/el-goonish-shive-index"/>
+      <resource use="document" name="index" type="application/xml"/>
+      <resource-directory use="manifest" name="images" type="image/*"/>
       <import ref="//slothsoft@core/HTML5"/>
-      <param name="standalone" scope="global"/>
-    </fragment>
-    <fragment name="oots">
+    </directory>
+    <directory name="girl-genius">
       <use-template ref="xsl/_default"/>
-      <use-document ref="static/oots-index"/>
+      <resource use="document" name="index" type="application/xml"/>
+      <resource-directory use="manifest" name="images" type="image/*"/>
       <import ref="//slothsoft@core/HTML5"/>
-      <param name="standalone" scope="global"/>
-    </fragment>
-    <fragment name="girl-genius">
-      <use-template ref="xsl/_default"/>
-      <use-document ref="static/girl-genius-index"/>
-      <import ref="//slothsoft@core/HTML5"/>
-      <param name="standalone" scope="global"/>
-    </fragment>
+    </directory>
   </assets>
