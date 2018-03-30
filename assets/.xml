@@ -6,30 +6,30 @@
       <use-template ref="xsl/_default"/>
       <resource use="document" name="index" type="application/xml"/>
       <resource-directory use="manifest" name="images" type="image/*"/>
-      <import ref="//slothsoft@core/imports/HTML5"/>
+      <import ref="//slothsoft@core/api/HTML5"/>
     </directory>
     <directory name="menage-a-3">
       <use-template ref="xsl/_default"/>
       <resource use="document" name="index" type="application/xml"/>
       <resource-directory use="manifest" name="images" type="image/*"/>
-      <import ref="//slothsoft@core/imports/HTML5"/>
+      <import ref="//slothsoft@core/api/HTML5"/>
     </directory>
     <directory name="el-goonish-shive">
       <use-template ref="xsl/_default"/>
       <resource use="document" name="index" type="application/xml"/>
       <resource-directory use="manifest" name="images" type="image/*"/>
-      <import ref="//slothsoft@core/imports/HTML5"/>
+      <import ref="//slothsoft@core/api/HTML5"/>
     </directory>
     <directory name="oots">
       <use-template ref="xsl/_default"/>
       <resource use="document" name="index" type="application/xml"/>
       <resource-directory use="manifest" name="images" type="image/*"/>
-      <import ref="//slothsoft@core/imports/HTML5"/>
+      <import ref="//slothsoft@core/api/HTML5"/>
     </directory>
     <directory name="girl-genius">
       <use-template ref="xsl/_default"/>
       <resource use="document" name="index" type="application/xml"/>
       <resource-directory use="manifest" name="images" type="image/*"/>
-      <import ref="//slothsoft@core/imports/HTML5"/>
+      <import ref="//slothsoft@core/api/HTML5"/>
     </directory>
   </assets>
