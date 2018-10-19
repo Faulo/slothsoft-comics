@@ -1,11 +1,11 @@
 {
     "name": "slothsoft/comics",
     "description": "A Farah module that downloads various webcomics.",
-    "license": "WTFPL",
+    "license": "GPL",
     "authors": [
         {
             "name": "Daniel Schulz",
-            "email": "info.slothsoft@gmail.com"
+            "email": "info.slothsoft@gmai.com"
         }
     ],
     "type": "library",
@@ -35,5 +35,5 @@
         ]
     },
     "classmap-authoritative": false,
-    "version": "1.0.0"
+    "homepage": "http://farah.slothsoft.net/modules/comics"
 }
